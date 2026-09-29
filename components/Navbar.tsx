@@ -201,11 +201,11 @@ export default function Navbar() {
           />
 
           <span className="flex flex-col">
-            <span className="text-[15px] font-semibold leading-tight tracking-[0.18em] text-[#0B2440] sm:text-[17px]">
+            <span className="text-[15px] font-semibold leading-none tracking-[0.18em] text-[#0B2440] sm:text-[17px]">
               CANARIAS
             </span>
 
-            <span className="mt-1 text-[8px] font-medium tracking-[0.2em] text-[#657584]">
+            <span className="mt-[2px] text-[8px] font-medium leading-none tracking-[0.2em] text-[#657584]">
               GRUPO EMPRESARIAL
             </span>
           </span>
@@ -302,9 +302,7 @@ export default function Navbar() {
             </p>
           </div>
 
-          <span className="text-xs text-[#657584]">
-            Grupo Canarias
-          </span>
+          <span className="text-xs text-[#657584]">Grupo Canarias</span>
         </div>
 
         <nav aria-label="Líneas de negocio">
